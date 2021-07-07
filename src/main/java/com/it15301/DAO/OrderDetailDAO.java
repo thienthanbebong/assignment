@@ -1,0 +1,7 @@
+package com.it15301.DAO;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.it15301.entity.OrderDetail;
+
+public interface OrderDetailDAO extends JpaRepository<OrderDetail, Long>{}
